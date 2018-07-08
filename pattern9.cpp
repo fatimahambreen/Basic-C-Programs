@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int i,j,k;
+    int m=1;
+    for(i=1;i<=5;i++)
+
+{
+    for(k=1;k<=5-i;k++)
+    {
+        cout<<" ";
+    }
+    for(j=1;j<=m;j++)
+    {
+        cout<<"*";
+    }
+    cout<<endl;
+    m=m+2;
+}
+}
